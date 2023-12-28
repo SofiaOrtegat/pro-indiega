@@ -11,4 +11,10 @@
       "schematics": {
         "@schematics/angular:component": {
           "styleext": "sass"
-       
+        }
+      },
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "output
