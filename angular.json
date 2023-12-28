@@ -5,4 +5,10 @@
   "projects": {
     "indiega": {
       "root": "",
-      "
+      "sourceRoot": "src",
+      "projectType": "application",
+      "prefix": "app",
+      "schematics": {
+        "@schematics/angular:component": {
+          "styleext": "sass"
+       
