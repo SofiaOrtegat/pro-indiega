@@ -27,4 +27,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/custom-theme.s
+              "src/custom-theme.scss",
+              "src/styles.sass"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
