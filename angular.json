@@ -65,4 +65,10 @@
             "browserTarget": "indiega:build"
           },
           "configurations": {
-            "producti
+            "production": {
+              "browserTarget": "indiega:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-a
