@@ -88,4 +88,10 @@
             ],
             "scripts": [],
             "assets": [
-  
+              "src/favicon.ico",
+              "src/assets"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build
