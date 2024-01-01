@@ -71,4 +71,10 @@
           }
         },
         "extract-i18n": {
-          "builder": "@angular-devkit/build-a
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "indiega:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-an
