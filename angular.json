@@ -100,4 +100,13 @@
               "src/tsconfig.app.json",
               "src/tsconfig.spec.json"
             ],
-            "excl
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "indiega-e2e": {
+      "root": "e2e/",
+      "projectType": "applicat
