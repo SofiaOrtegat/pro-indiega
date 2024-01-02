@@ -119,4 +119,10 @@
             "devServerTarget": "indiega:serve"
           },
           "configurations": {
-            "produ
+            "production": {
+              "devServerTarget": "indiega:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/b
