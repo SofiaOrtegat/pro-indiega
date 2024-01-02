@@ -109,4 +109,10 @@
     },
     "indiega-e2e": {
       "root": "e2e/",
-      "projectType": "applicat
+      "projectType": "application",
+      "prefix": "",
+      "architect": {
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+      
