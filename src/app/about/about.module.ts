@@ -5,3 +5,13 @@ import { CommonModule } from '@angular/common';
 
 import { AboutRoutingModule } from './about-routing.module';
 import { AboutComponent } from './about.component';
+import { SharedModule } from '../global/shared.module';
+
+@NgModule({
+  declarations: [
+    AboutComponent,
+    SummaryComponent,
+    CountsComponent
+  ],
+  imports: [
+    C
