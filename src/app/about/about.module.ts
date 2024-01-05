@@ -14,4 +14,10 @@ import { SharedModule } from '../global/shared.module';
     CountsComponent
   ],
   imports: [
-    C
+    CommonModule,
+    SharedModule,
+    CommonModule,
+    AboutRoutingModule
+  ]
+})
+export class AboutModule { }
