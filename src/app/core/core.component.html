@@ -2,4 +2,9 @@
 <section fxLayout="row" fxLayoutAlign="center center">
   <div class="wrapper">
     <mat-accordion>
-      <mat-expansion-panel (opened)="isOpened = true" (closed)="isOpened = false" *ngFor="let core of coreValues; track
+      <mat-expansion-panel (opened)="isOpened = true" (closed)="isOpened = false" *ngFor="let core of coreValues; trackBy: trackByFn">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <mat-icon>email</mat-icon>{{ core.title }}
+          </mat-panel-title>
+          
