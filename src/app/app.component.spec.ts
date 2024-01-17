@@ -23,4 +23,9 @@ describe('AppComponent', () => {
   it(`should have as title 'indiega'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('indieg
+    expect(app.title).toEqual('indiega');
+  });
+
+  it('should render title in a h1 tag', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detect
