@@ -1,3 +1,5 @@
 <app-title-header></app-title-header>
 <section fxLayout="row" fxLayoutAlign="center center">
-  <div
+  <div class="wrapper">
+    <mat-accordion>
+      <mat-expansion-panel (opened)="isOpened = true" (closed)="isOpened = false" *ngFor="let core of coreValues; track
