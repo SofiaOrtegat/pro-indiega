@@ -10,4 +10,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forChil
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule]
+})
+export class CoreRoutingModule { }
