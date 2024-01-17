@@ -1,3 +1,13 @@
 import { CoreComponent } from './core.component';
 import { NgModule } from '@angular/core';
-import 
+import { RouterModule, Routes } from '@angular/router';
+
+const routes: Routes = [
+  {
+    path: '',
+    component: CoreComponent
+  }
+];
+
+@NgModule({
+  imports: [RouterModule.forChil
