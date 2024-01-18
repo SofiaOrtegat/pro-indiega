@@ -1,2 +1,6 @@
 import { CoreComponent } from './core.component';
-i
+import { SharedModule } from '../global/shared.module';
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+import { CoreRou
