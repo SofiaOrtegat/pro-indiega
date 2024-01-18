@@ -13,4 +13,4 @@ import { CoreRoutingModule } from './core-routing.module';
     CoreRoutingModule
   ]
 })
-export class Co
+export class CoreModule { }
