@@ -5,4 +5,11 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-gallery',
   templateUrl: './gallery.component.html',
-  styleUrls: ['./gal
+  styleUrls: ['./gallery.component.sass']
+})
+export class GalleryComponent implements OnInit {
+  public images: Array<Image> = []
+
+  constructor(private imageService: ImagesService) { }
+
+  ngOnIn
