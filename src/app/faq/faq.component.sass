@@ -33,4 +33,13 @@ p
     padding-bottom: 1rem
     text-transform: uppercase
   &:nth-child(even)
-    border-left: 1px solid map-get($indiega-pr
+    border-left: 1px solid map-get($indiega-primary, 300)
+    & .count
+      order: 2
+    & h2
+      text-align: right
+    & p
+      text-align: right
+  &:nth-last-child(1)
+    border-bottom: none
+  &:nth-last-child(2)
