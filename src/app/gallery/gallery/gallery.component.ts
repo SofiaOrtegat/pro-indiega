@@ -12,4 +12,9 @@ export class GalleryComponent implements OnInit {
 
   constructor(private imageService: ImagesService) { }
 
-  ngOnIn
+  ngOnInit(): void {
+    this.imageService.getImages()
+      .then(images => this.images = images)
+  }
+
+}
