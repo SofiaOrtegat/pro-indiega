@@ -20,4 +20,9 @@ export class BreadcrumbService {
     }
 
     for (const child of CHILDREN) {
-      if 
+      if (child.outlet !== PRIMARY_OUTLET || child.snapshot.url.length === 0) {
+        continue;
+      }
+
+      if (!child.snapshot.data.hasOwnProperty(ROUTE_DATA_BREADCRUMB)) {
+  
