@@ -25,4 +25,9 @@ export class BreadcrumbService {
       }
 
       if (!child.snapshot.data.hasOwnProperty(ROUTE_DATA_BREADCRUMB)) {
-  
+        return this.getBreadCrumbs(child, url, breadcrumbs);
+      }
+
+      const ROUTE_URL: string = child.snapshot.url
+        .map(segment => segment.path)
+        .join
