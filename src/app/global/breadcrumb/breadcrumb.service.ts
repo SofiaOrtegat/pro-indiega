@@ -30,4 +30,13 @@ export class BreadcrumbService {
 
       const ROUTE_URL: string = child.snapshot.url
         .map(segment => segment.path)
-        .join
+        .join("/");
+
+      url += `/${ROUTE_URL}`;
+
+      const breadcrumb: BreadCrumb = {
+        label: child.snapshot.data[ROUTE_DATA_BREADCRUMB],
+        url
+      };
+
+      breadcrumbs.push(br
