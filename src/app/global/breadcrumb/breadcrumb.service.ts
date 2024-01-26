@@ -39,4 +39,12 @@ export class BreadcrumbService {
         url
       };
 
-      breadcrumbs.push(br
+      breadcrumbs.push(breadcrumb);
+
+      // recursive
+      return this.getBreadCrumbs(child, url, breadcrumbs);
+    }
+
+    return breadcrumbs;
+  }
+}
