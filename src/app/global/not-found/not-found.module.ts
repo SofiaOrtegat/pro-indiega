@@ -15,4 +15,4 @@ import { NotFoundComponent } from './not-found.component';
     SharedModule
   ]
 })
-export class NotF
+export class NotFoundModule { }
