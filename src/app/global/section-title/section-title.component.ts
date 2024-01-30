@@ -6,4 +6,13 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './section-title.component.html',
   styleUrls: ['./section-title.component.sass']
 })
-export class SectionTitleComponent imp
+export class SectionTitleComponent implements OnInit {
+
+  @Input() shadow: string
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
