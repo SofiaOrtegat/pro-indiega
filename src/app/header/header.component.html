@@ -4,4 +4,8 @@
     <ul fxFlex fxLayoutAlign="space-around">
       <li *ngFor="let link of links">
         <ng-container *ngIf="link.hasDropdown; then thenTemplate; else elseTemplate"></ng-container>
-  
+        <ng-template #thenTemplate>
+          <a mat-button [mat-menu-trigger-for]="menu">{{ link.title }}</a>
+        </ng-template>
+        <ng-template #elseTemplate>
+     
