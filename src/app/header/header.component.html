@@ -8,4 +8,9 @@
           <a mat-button [mat-menu-trigger-for]="menu">{{ link.title }}</a>
         </ng-template>
         <ng-template #elseTemplate>
-     
+          <a [routerLink]="link.router" mat-button>{{ link.title }}</a>
+        </ng-template>
+
+      </li>
+    </ul>
+      <div fxLayoutAlign="center center"
