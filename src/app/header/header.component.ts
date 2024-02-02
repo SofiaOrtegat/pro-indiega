@@ -18,4 +18,11 @@ import { WINDOW } from "../shared/window.service";
   templateUrl: "./header.component.html",
   styleUrls: ["./header.component.sass"]
 })
-export class HeaderComp
+export class HeaderComponent implements OnInit {
+  @ViewChild("navBar") navbar: MatToolbar;
+  @ViewChild("logo") logo: ElementRef;
+
+  links: Array<Links> = [];
+  dropdown: Array<Links> = [];
+
+  constructo
