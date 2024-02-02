@@ -39,4 +39,7 @@ export class HeaderComponent implements OnInit {
       this.document.documentElement.scrollTop ||
       this.document.body.scrollTop ||
       0;
-    const navBar = this.navb
+    const navBar = this.navbar._elementRef.nativeElement;
+    const _logo = this.logo.nativeElement;
+    if (offset > 1) {
+      this.renderer.addClass(navBar, "scrolled");
