@@ -25,4 +25,8 @@ export class HeaderComponent implements OnInit {
   links: Array<Links> = [];
   dropdown: Array<Links> = [];
 
-  constructo
+  constructor(
+    @Inject(DOCUMENT) private document: Document,
+    @Inject(WINDOW) private window: Window,
+    public renderer: Renderer2,
+    private linksService: L
