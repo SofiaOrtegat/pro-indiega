@@ -34,4 +34,9 @@ export class HeaderComponent implements OnInit {
 
   // On Scroll function to dynamically add/remove CSS classes
   @HostListener("window:scroll", []) onScroll(): void {
-    const off
+    const offset =
+      this.window.pageYOffset ||
+      this.document.documentElement.scrollTop ||
+      this.document.body.scrollTop ||
+      0;
+    const navBar = this.navb
