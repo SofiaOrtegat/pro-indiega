@@ -29,4 +29,9 @@ export class HeaderComponent implements OnInit {
     @Inject(DOCUMENT) private document: Document,
     @Inject(WINDOW) private window: Window,
     public renderer: Renderer2,
-    private linksService: L
+    private linksService: LinksService
+  ) {}
+
+  // On Scroll function to dynamically add/remove CSS classes
+  @HostListener("window:scroll", []) onScroll(): void {
+    const off
