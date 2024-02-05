@@ -17,4 +17,7 @@
       <div
       matRipple
       matRippleColor="accent"
-      cla
+      class="point"
+      *ngFor="let i of myCarousel.pointNumbers; let i=index"
+      [class.active]="i == myCarousel.activePoint"
+      (click)="myCarousel.moveT
