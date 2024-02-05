@@ -56,4 +56,6 @@ export class HeaderComponent implements OnInit {
       .then(links => (this.links = links));
     this.linksService
       .getDropdownLinks()
-      
+      .then(dropdown => (this.dropdown = dropdown));
+  }
+}
