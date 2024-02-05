@@ -46,4 +46,14 @@ export class HeaderComponent implements OnInit {
       this.renderer.addClass(_logo, "logo-scrolled");
     } else {
       this.renderer.removeClass(navBar, "scrolled");
-      this.renderer.removeClass(_logo, "logo-scrolle
+      this.renderer.removeClass(_logo, "logo-scrolled");
+    }
+  }
+
+  ngOnInit(): void {
+    this.linksService
+      .getLinks()
+      .then(links => (this.links = links));
+    this.linksService
+      .getDropdownLinks()
+      
