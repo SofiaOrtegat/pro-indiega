@@ -43,3 +43,7 @@ export class HeaderComponent implements OnInit {
     const _logo = this.logo.nativeElement;
     if (offset > 1) {
       this.renderer.addClass(navBar, "scrolled");
+      this.renderer.addClass(_logo, "logo-scrolled");
+    } else {
+      this.renderer.removeClass(navBar, "scrolled");
+      this.renderer.removeClass(_logo, "logo-scrolle
