@@ -3,4 +3,7 @@
     <ngu-tile fxLayout="column" fxLayoutAlign="center center" *nguCarouselDef="let item" class="tile">
       <div
       class="global--bg-image"
-      [style.backgr
+      [style.background]="'url('+item.image+')'"
+      [style.backgroundSize]="'cover'"
+      [style.backgroundPosition]="'50% 50%'"></div>
+      <div class="content" fxLayout="column" f
