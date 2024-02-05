@@ -20,4 +20,8 @@
       class="point"
       *ngFor="let i of myCarousel.pointNumbers; let i=index"
       [class.active]="i == myCarousel.activePoint"
-      (click)="myCarousel.moveT
+      (click)="myCarousel.moveTo(i)"
+      >0{{ i + 1 }}</div>
+    </div>
+  </ngu-carousel>
+</section>
