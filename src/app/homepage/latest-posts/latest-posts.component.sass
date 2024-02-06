@@ -11,4 +11,10 @@ a
   border-radius: 10px !important
   @include mat-elevation-transition
   @include mat-elevation(3)
-  
+  &:hover
+    @include mat-elevation(9, map-get($indiega-accent, A200))
+    & mat-card-title
+      color: map-get($indiega-accent, A200) !important
+
+.image-wrapper
+ 
