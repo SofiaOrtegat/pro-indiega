@@ -3,4 +3,11 @@ import { NguCarouselConfig } from '@ngu/carousel';
 
 @Component({
   selector: "app-upcoming",
-  templateUrl:
+  templateUrl: "./upcoming.component.html",
+  styleUrls: ["./upcoming.component.sass"]
+})
+export class UpcomingComponent {
+  tiles = [
+    {
+      title: "Title Sample #1",
+      date: "Text 
