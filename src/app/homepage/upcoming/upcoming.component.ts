@@ -19,4 +19,10 @@ export class UpcomingComponent {
       image: "assets/images/game-img-2.jpg"
     },
     {
-      title: "
+      title: "Title Sample #3",
+      date: "Text Sample #3",
+      image: "assets/images/game-img-3.jpg"
+    },
+    {
+      title: "Title Sample #4",
+      dat
