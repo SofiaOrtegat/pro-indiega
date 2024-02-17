@@ -31,4 +31,15 @@ export class UpcomingComponent {
   ];
 
   public carouselTileConfig: NguCarouselConfig = {
-    grid: { xs: 1, sm: 3, md: 4, lg: 4, all: 0 }
+    grid: { xs: 1, sm: 3, md: 4, lg: 4, all: 0 },
+    speed: 800,
+    point: {
+      visible: true
+    },
+    touch: true,
+    loop: true,
+    interval: { timing: 5000 },
+    animation: "lazy"
+  };
+
+  tempData: Array<any
