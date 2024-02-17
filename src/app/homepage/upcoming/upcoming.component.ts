@@ -25,4 +25,10 @@ export class UpcomingComponent {
     },
     {
       title: "Title Sample #4",
-      dat
+      date: "Text Sample #4",
+      image: "assets/images/game-img-4.jpg"
+    }
+  ];
+
+  public carouselTileConfig: NguCarouselConfig = {
+    grid: { xs: 1, sm: 3, md: 4, lg: 4, all: 0 }
