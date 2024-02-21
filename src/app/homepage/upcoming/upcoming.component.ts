@@ -42,4 +42,6 @@ export class UpcomingComponent {
     animation: "lazy"
   };
 
-  tempData: Array<any
+  tempData: Array<any>;
+
+}
