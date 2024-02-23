@@ -10,4 +10,9 @@ export const CORE_VALUES: Array<CoreValues> = [
     title: `Talent First`,
     subtitle: ``,
     text: `There is no set of skills a person can have that will allow for them to compensate for a lack of results in raid.
-       All your gear, money, free time, and personality add up to nothing if you can’t execute comparably to the best players in the world.
+       All your gear, money, free time, and personality add up to nothing if you can’t execute comparably to the best players in the world.`
+  },
+  {
+    title: `No Compromise`,
+    subtitle: ``,
+    text: `We don’t care if you are the best player in the world. If you want to bring your shitty girlfriend 
