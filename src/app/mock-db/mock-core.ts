@@ -20,4 +20,8 @@ export const CORE_VALUES: Array<CoreValues> = [
   {
     title: `Low Attempt Counts`,
     subtitle: ``,
-    text: `We don’t bash our heads into a wall. We may have a heavy
+    text: `We don’t bash our heads into a wall. We may have a heavy schedule during progression,
+       but the total quantity of raid hours required for us to clear all content will be less than any casual guild.`
+  },
+  {
+    title: `En
