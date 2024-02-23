@@ -15,4 +15,9 @@ export const CORE_VALUES: Array<CoreValues> = [
   {
     title: `No Compromise`,
     subtitle: ``,
-    text: `We don’t care if you are the best player in the world. If you want to bring your shitty girlfriend 
+    text: `We don’t care if you are the best player in the world. If you want to bring your shitty girlfriend along, I will personally show you where to shove it.`
+  },
+  {
+    title: `Low Attempt Counts`,
+    subtitle: ``,
+    text: `We don’t bash our heads into a wall. We may have a heavy
