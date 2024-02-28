@@ -24,4 +24,7 @@ export const CORE_VALUES: Array<CoreValues> = [
        but the total quantity of raid hours required for us to clear all content will be less than any casual guild.`
   },
   {
-    title: `En
+    title: `Enjoy the Game`,
+    subtitle: ``,
+    text: `We’ve found that the most valuable players are actively interested in Wildstar.
+       Maybe not all day every day, but people th
