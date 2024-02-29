@@ -4,4 +4,7 @@ import { faGlobeAmericas, faTrophy, faUsers } from "@fortawesome/free-solid-svg-
 
 export const STATS: Array<Features> = [
   { icon: faThumbsUp, count: 12356, source: 'happy clients' },
-  { icon: faTrophy, count: 2356, source: 'W
+  { icon: faTrophy, count: 2356, source: 'WON AWARDS' },
+  { icon: faUsers, count: 356, source: 'TOTAL GAMERS' },
+  { icon: faGlobeAmericas, count: 56, source: 'COUNTRIES-PLAYERS' }
+];
