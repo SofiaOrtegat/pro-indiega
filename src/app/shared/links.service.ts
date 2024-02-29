@@ -4,4 +4,10 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class LinksService {
- 
+  // tslint:disable-next-line:array-type
+  getLinks(): Promise<Links[]> {
+    return Promise.resolve(LINKS)
+  }
+
+  // tslint:disable-next-line:array-type
+  ge
