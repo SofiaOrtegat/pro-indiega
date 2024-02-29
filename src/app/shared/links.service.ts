@@ -10,4 +10,7 @@ export class LinksService {
   }
 
   // tslint:disable-next-line:array-type
-  ge
+  getDropdownLinks(): Promise<Links[]> {
+    return Promise.resolve(DROPDOWN_LINKS)
+  }
+}
