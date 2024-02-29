@@ -27,4 +27,7 @@ export const CORE_VALUES: Array<CoreValues> = [
     title: `Enjoy the Game`,
     subtitle: ``,
     text: `We’ve found that the most valuable players are actively interested in Wildstar.
-       Maybe not all day every day, but people th
+       Maybe not all day every day, but people that habitually don’t give a shit will have poor execution.
+        If you’re on the way out the door, Enigma is not the place for you.`
+  }
+]
