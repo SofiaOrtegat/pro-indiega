@@ -6,4 +6,8 @@ import { Features } from './stats.model';
   providedIn: 'root'
 })
 export class StatsService {
-  // tslint:disable-next-line:array-
+  // tslint:disable-next-line:array-type
+  getStats(): Promise<Features[]> {
+    return Promise.resolve(STATS)
+  }
+}
