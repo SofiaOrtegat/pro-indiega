@@ -45,4 +45,8 @@ export const browserWindowProvider: ClassProvider = {
   useClass: BrowserWindowRef
 };
 
-/* Create an injectable provider that uses the windowFact
+/* Create an injectable provider that uses the windowFactory function for returning the native window object. */
+export const windowProvider: FactoryProvider = {
+  provide: WINDOW,
+  useFactory: windowFactory,
+  deps: [WindowRef, PLATFORM_ID
