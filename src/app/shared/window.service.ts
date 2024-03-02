@@ -32,4 +32,11 @@ export function windowFactory(
   browserWindowRef: BrowserWindowRef,
   platformId: Object
 ): Window | Object {
-  if (isPlatformBrows
+  if (isPlatformBrowser(platformId)) {
+    return browserWindowRef.nativeWindow;
+  }
+
+  return new Object();
+}
+
+/* Create a injectable provider for the WindowRef token that uses the Browse
