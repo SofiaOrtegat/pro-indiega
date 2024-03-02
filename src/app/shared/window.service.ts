@@ -39,4 +39,10 @@ export function windowFactory(
   return new Object();
 }
 
-/* Create a injectable provider for the WindowRef token that uses the Browse
+/* Create a injectable provider for the WindowRef token that uses the BrowserWindowRef class. */
+export const browserWindowProvider: ClassProvider = {
+  provide: WindowRef,
+  useClass: BrowserWindowRef
+};
+
+/* Create an injectable provider that uses the windowFact
