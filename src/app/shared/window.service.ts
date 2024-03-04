@@ -49,4 +49,8 @@ export const browserWindowProvider: ClassProvider = {
 export const windowProvider: FactoryProvider = {
   provide: WINDOW,
   useFactory: windowFactory,
-  deps: [WindowRef, PLATFORM_ID
+  deps: [WindowRef, PLATFORM_ID]
+};
+
+/* Create an array of providers. */
+export const WINDOW_PROVIDERS = [browserWindowProvider, windowProvider];
