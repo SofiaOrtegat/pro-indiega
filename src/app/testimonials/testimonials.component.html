@@ -3,4 +3,7 @@
     <section-title fxFlex [shadow]="'All Reviews'">
       Testimonials
     </section-title>
-    <ngu-carous
+    <ngu-carousel #myCarousel [inputs]="carouselTileConfig" [dataSource]="blockQuotes">
+      <ngu-tile *nguCarouselDef="let item">
+        <blockquote>
+          <div class="i
