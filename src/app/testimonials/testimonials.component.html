@@ -6,4 +6,10 @@
     <ngu-carousel #myCarousel [inputs]="carouselTileConfig" [dataSource]="blockQuotes">
       <ngu-tile *nguCarouselDef="let item">
         <blockquote>
-          <div class="i
+          <div class="image"></div>
+          <mat-icon>
+            format_quote
+          </mat-icon>
+          <div class="head-wrapper">
+            <h2> {{ item.title }} </h2>
+            <h3
