@@ -4,4 +4,8 @@ import { BreadCrumb } from "../global/breadcrumb/breadcrumb.interface";
 
 @Component({
   selector: "app-title-header",
-  templateUrl: "
+  templateUrl: "./title-header.component.html",
+  styleUrls: ["./title-header.component.sass"]
+})
+export class TitleHeaderComponent implements OnInit {
+  public breadcrumb
