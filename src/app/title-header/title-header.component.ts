@@ -14,4 +14,6 @@ export class TitleHeaderComponent implements OnInit {
   ngOnInit(): void {
     this.appComponent
       .getCrumbs()
-      .then(
+      .then(breadcrumbs => (this.breadcrumbs = breadcrumbs));
+  }
+}
