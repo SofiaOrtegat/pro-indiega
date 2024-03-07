@@ -8,4 +8,10 @@ import { BreadCrumb } from "../global/breadcrumb/breadcrumb.interface";
   styleUrls: ["./title-header.component.sass"]
 })
 export class TitleHeaderComponent implements OnInit {
-  public breadcrumb
+  public breadcrumbs: Array<BreadCrumb> = [];
+  constructor(private appComponent: AppComponent) {}
+
+  ngOnInit(): void {
+    this.appComponent
+      .getCrumbs()
+      .then(
