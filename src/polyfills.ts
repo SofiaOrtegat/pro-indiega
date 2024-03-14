@@ -37,4 +37,9 @@
  * If your app need to indexed by Google Search, your app require polyfills 'core-js/es6/array'
  * Google bot use ES5.
  * FYI: Googlebot uses a renderer following the similar spec to Chrome 41.
- * https://developers.google.com/search/docs/guides/render
+ * https://developers.google.com/search/docs/guides/rendering
+ **/
+// import 'core-js/es6/array';
+
+/** IE10 and IE11 requires the following for NgClass support on SVG elements */
+// import 'classlist.js';  // Run `np
