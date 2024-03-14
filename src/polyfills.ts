@@ -34,4 +34,7 @@
 // import 'core-js/es6/set';
 
 /**
- * If your app need to indexed by Google Search, your app require polyfills 'core-js/es6/a
+ * If your app need to indexed by Google Search, your app require polyfills 'core-js/es6/array'
+ * Google bot use ES5.
+ * FYI: Googlebot uses a renderer following the similar spec to Chrome 41.
+ * https://developers.google.com/search/docs/guides/render
