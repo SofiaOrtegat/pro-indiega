@@ -29,4 +29,9 @@
 // import 'core-js/es6/string';
 // import 'core-js/es6/date';
 // import 'core-js/es6/regexp';
-// import 'core-js/es6/
+// import 'core-js/es6/map';
+// import 'core-js/es6/weak-map';
+// import 'core-js/es6/set';
+
+/**
+ * If your app need to indexed by Google Search, your app require polyfills 'core-js/es6/a
